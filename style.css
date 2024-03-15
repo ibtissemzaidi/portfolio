@@ -309,10 +309,13 @@ footer p {
 	}
 
 	#skills ul {
-		display: flex;
 		flex-direction: column;
-		/* Afficher les éléments en colonne */
+		align-items: center;
+	}
 
+	#skills li {
+		width: 100%;
+		max-width: 100%;
 	}
 
 	.page-content .projects-section {
