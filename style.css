@@ -308,6 +308,13 @@ footer p {
 		max-width: 100%;
 	}
 
+	#skills ul {
+		display: flex;
+		flex-direction: column;
+		/* Afficher les éléments en colonne */
+
+	}
+
 	.page-content .projects-section {
 		margin-top: 15%;
 	}
