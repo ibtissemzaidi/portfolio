@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>
-        Créer un Portfolio Moderne en HTML & CSS et le mettre en Ligne
+        Créer un Portfolio Moderne en HTML & CSS
     </title>
 </head>
 
@@ -19,11 +19,12 @@
             <h1>Zaidi Ibtissem</h1>
         </div>
         <ul>
-            <a href="#page-content">
-                <li>About me</li>
-            </a>
-            <li>Mes projets</li>
-            <li>Curriculum Vitae</li>
+
+            <li><a href="#About">A props</li>
+
+            <li><a href="#projects-section">Mes projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
 
 
         </ul>
@@ -31,7 +32,7 @@
 
     <section class="page-content">
         <header>
-            <h1>Hey, je suis developpeur front end junior.</h1>
+            <h1 id="About">je suis developpeur front end junior.</h1>
             <p>
                 En tant que développeur web passionné, je suis constamment inspiré par le potentiel infini et la
                 créativité sans limite que ce domaine offre. Depuis mes premiers pas dans le monde du développement web,
@@ -41,14 +42,52 @@
                 quelque chose de nouveau à apprendre. Chaque nouveau projet me permet d'explorer de nouvelles
                 technologies, de repousser mes limites et de m'améliorer en tant que développeur.
             </p>
-            <button>Dites Hey</button>
+            <button><a href="#contact">Dites Hey</a></button>
         </header>
 
         <section class="presentation-image">
             <img src="https://i.ibb.co/RbGysWw/main-image.jpg" alt="AI image" />
         </section>
+        <section id="skills">
+            <h2>Compétences</h2>
+            <ul>
+                <li>
+                    <div class="skill">
+                        <h3>HTML5</h3>
+                        <img src="./images/html-5.png" alt="log html5" width="150" height="150">
+                        <p>Maîtrise des balises HTML5 pour structurer le contenu des pages web.</p>
+                    </div>
+                </li>
 
-        <section class="projects-section">
+
+                <li>
+                    <div class="skill">
+                        <h3>CSS3</h3>
+                        <img src="./images/css_original_logo_icon_146575 (2).png" alt="logo css" width="150"
+                            height="150">
+                        <p>Expérience dans la création de mises en page attrayantes et responsives avec CSS3.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill">
+                        <h3>JavaScript</h3>
+                        <img src="images/JS.png" alt="logo javascript" width="150" height="150">
+                        <P>Capacité à développer des fonctionnalités interactives et dynamiques avec
+                            JavaScript.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill">
+                        <h3>React</h3>
+                        <img src="images/react.svg" alt="Llogo react" width="150" height="150">
+                        <p>Connaissance approfondie de React pour la création d'interfaces utilisateur modernes et
+                            réactives.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects-section">
             <h1>Projets réalisés</h1>
             <div class="projects">
                 <a
@@ -122,25 +161,25 @@
                 </a>
             </div>
         </section>
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
     </section>
 
     <footer>
-        <div class="colonne">
-            <h3>Mes services</h3>
-            <p>Développement de projet IA</p>
-            <p>Prestation en IA</p>
-            <p>Investissement en entreprises IA</p>
-        </div>
-        <div class="colonne">
-            <h3>Mon entreprise</h3>
-            <p>Équipe constituée de 20k ingénieurs</p>
-            <p>Une communauté active mondiale</p>
-            <p>Une entreprise à but lucratif</p>
-        </div>
-        <div class="colonne">
-            <h3>Contact</h3>
-            <p>awessale@gmail.com</p>
-
-        </div>
+        <p>&copy; 2024 Mon Portfolio</p>
+        <p>Email: awessale@gmail.com</p>
     </footer>
+
 </body>
+
+</html>
