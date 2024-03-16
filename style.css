@@ -316,6 +316,7 @@ footer p {
 	#skills li {
 		width: 100%;
 		max-width: 100%;
+
 	}
 
 	.page-content .projects-section {
@@ -337,7 +338,9 @@ footer p {
 	}
 
 	footer {
-		justify-content: flex-start;
+
+		flex-direction: column;
+		align-items: center;
 	}
 
 	footer .column {
