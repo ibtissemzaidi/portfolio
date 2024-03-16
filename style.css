@@ -186,11 +186,14 @@ nav ul li a:hover {
 .page-content #projects-section .projects {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
 }
 
 .page-content #projects-section .project {
 	margin-right: 20px;
 	max-width: 195px;
+	margin-left: 40px;
 }
 
 .page-content #projects-section .project h4 {
